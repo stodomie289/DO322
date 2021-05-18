@@ -1,3 +1,3 @@
 <?php
-print "Hello, World! L&T FINAL " . PHP_VERSION . "\n";
+print "Hello, World! CGI DEMO FINAL " . PHP_VERSION . "\n";
 ?>
