@@ -1,3 +1,3 @@
 <?php
-print "Hello, World! SECOND day after Lunch break " . PHP_VERSION . "\n";
+print "Hello, World! SECOND day EVENING " . PHP_VERSION . "\n";
 ?>
