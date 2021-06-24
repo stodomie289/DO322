@@ -1,3 +1,3 @@
 <?php
-print "Hello, World! GOOD EVENING ALMOST NEAR TO TEA BREAK" . PHP_VERSION . "\n";
+print "Hello, World! GOOD EVENING demo of webhook" . PHP_VERSION . "\n";
 ?>
