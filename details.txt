@@ -1,4 +1,4 @@
-"nexus-registry-int.apps.tools-na.prod.nextcle.com":
+"nexus-registry-int.apps.tools-ap.prod.nextcle.com":
 {"auth":"cmVndXNlcjpJbnN0YWxsTTM=","email":"nobody@example.com"}
 
 
@@ -17,7 +17,7 @@ wget $sol_url/pxelinux.cfg/01-52-54-00-00-32-09 -P /var/lib/tftpboot/pxelinux.cf
 
 mkdir ocp4upi && cd ocp4upi
 wget http://classroom.example.com/materials/solutions/ocp4upi/install-config.yaml
-reg="nexus-registry-int.apps.tools-na.prod.nextcle.com"
+reg="nexus-registry-int.apps.tools-ap.prod.nextcle.com"
 releaseimg="/openshift/ocp4:4.6.4-x86_64"
 export OPENSHIFT_INSTALL_RELEASE_IMAGE_OVERRIDE=$reg$releaseimg
 
