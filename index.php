@@ -1,3 +1,3 @@
 <?php
-print "Hello, World! we will configure the LAB ENV" . PHP_VERSION . "\n";
+print "Hello, World! GOOD EVENING" . PHP_VERSION . "\n";
 ?>
