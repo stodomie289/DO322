@@ -31,7 +31,7 @@ sudo podman images
 
 
 
-"nexus-registry-int.apps.tools-ap.prod.nextcle.com":
+"nexus-registry-int.apps.tools-apac150.prod.ole.redhat.com":
 {"auth":"cmVndXNlcjpJbnN0YWxsTTM=","email":"nobody@example.com"}
 
 
