@@ -47,7 +47,11 @@ wget ${baseurl}/rhcos-${rhcos_ver}-x86_64-live-initramfs.x86_64.img
 wget http://classroom.example.com/materials/solutions/haproxy/haproxy.cfg
 sol_url=http://classroom.example.com/materials/solutions
 wget $sol_url/pxelinux.cfg/01-52-54-00-00-32-09 -P /var/lib/tftpboot/pxelinux.cfg/
-
+wget $sol_url/pxelinux.cfg/01-52-54-00-00-32-0a -P /var/lib/tftpboot/pxelinux.cfg/
+wget $sol_url/pxelinux.cfg/01-52-54-00-00-32-0b -P /var/lib/tftpboot/pxelinux.cfg/
+wget $sol_url/pxelinux.cfg/01-52-54-00-00-32-0c -P /var/lib/tftpboot/pxelinux.cfg/
+wget $sol_url/pxelinux.cfg/01-52-54-00-00-32-0d -P /var/lib/tftpboot/pxelinux.cfg/
+wget $sol_url/pxelinux.cfg/01-52-54-00-00-32-0e -P /var/lib/tftpboot/pxelinux.cfg/
 mkdir ocp4upi && cd ocp4upi
 wget http://classroom.example.com/materials/solutions/ocp4upi/install-config.yaml
 reg="nexus-registry-int.apps.tools-ap.prod.nextcle.com"
