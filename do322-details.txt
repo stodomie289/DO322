@@ -1,3 +1,36 @@
+Workstation : sudo yum install chromium
+wget https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.6.4/openshift-client-linux-4.6.4.tar.gz
+wget https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.6.4/openshift-install-linux-4.6.4.tar.gz
+
+tar -xvf openshift-client-linux-4.6.4.tar.gz -C /usr/bin/
+tar -xvf openshift-install-linux-4.6.4.tar.gz -C /usr/bin/
+oc completion bash > /etc/bash_completion.d/openshift
+openshift-install completion bash > /etc/bash_completion.d/openshift-install
+LAB USER: source /etc/bash_completion.d/openshift
+LAB USER: source /etc/bash_completion.d/openshift-install
+ROOT USER: source /etc/bash_completion.d/openshift
+ROOT USER: source /etc/bash_completion.d/openshift-install
+LABUSER: ssh-keygen -t rsa -b 4096 -N '' -f .ssh/ocp4upi
+REGISTRY NAME:      nexus-registry-int.apps.tools-apac150.prod.ole.redhat.com
+WORKSTATION : python3 -m json.tool Downloads/pull-secret.txt > pull-secret.json
+EDIT PULL SECRET
+
+WORKSTATION: 
+scp pull-secret-oneline.json lab@utility:
+
+UTILTY
+sudo yum install podman 
+sudo podman pull --authfile ~/pull-secret-oneline.json nexus-registry-int.apps.tools-apac150.prod.ole.redhat.com/openshift/ocp4:4.6.4-x86_64
+sudo podman images
+
+
+
+
+
+
+
+
+
 "nexus-registry-int.apps.tools-ap.prod.nextcle.com":
 {"auth":"cmVndXNlcjpJbnN0YWxsTTM=","email":"nobody@example.com"}
 
