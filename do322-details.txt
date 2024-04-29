@@ -54,7 +54,7 @@ wget $sol_url/pxelinux.cfg/01-52-54-00-00-32-0d -P /var/lib/tftpboot/pxelinux.cf
 wget $sol_url/pxelinux.cfg/01-52-54-00-00-32-0e -P /var/lib/tftpboot/pxelinux.cfg/
 mkdir ocp4upi && cd ocp4upi
 wget http://classroom.example.com/materials/solutions/ocp4upi/install-config.yaml
-reg="nexus-registry-int.apps.tools-ap.prod.nextcle.com"
+reg="nexus-registry-int.apps.tools-apac150.prod.ole.redhat.com"
 releaseimg="/openshift/ocp4:4.6.4-x86_64"
 export OPENSHIFT_INSTALL_RELEASE_IMAGE_OVERRIDE=$reg$releaseimg
 
