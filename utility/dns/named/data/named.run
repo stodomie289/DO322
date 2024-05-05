@@ -1,0 +1,176 @@
+reloading configuration succeeded
+reloading zones succeeded
+all zones loaded
+running
+managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+timed out resolving 'api.openshift.com/AAAA/IN': 172.25.250.254#53
+timed out resolving 'api.openshift.com/A/IN': 172.25.250.254#53
+network unreachable resolving 'api.openshift.com/AAAA/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving 'api.openshift.com/A/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving 'api.openshift.com/AAAA/IN': 2801:1b8:10::b#53
+network unreachable resolving 'api.openshift.com/A/IN': 2801:1b8:10::b#53
+network unreachable resolving 'api.openshift.com/AAAA/IN': 2001:500:2::c#53
+network unreachable resolving 'api.openshift.com/A/IN': 2001:500:2::c#53
+network unreachable resolving 'api.openshift.com/AAAA/IN': 2001:500:2d::d#53
+network unreachable resolving 'api.openshift.com/A/IN': 2001:500:2d::d#53
+network unreachable resolving 'api.openshift.com/AAAA/IN': 2001:500:a8::e#53
+network unreachable resolving 'api.openshift.com/A/IN': 2001:500:a8::e#53
+network unreachable resolving 'api.openshift.com/AAAA/IN': 2001:500:2f::f#53
+network unreachable resolving 'api.openshift.com/A/IN': 2001:500:2f::f#53
+network unreachable resolving 'api.openshift.com/AAAA/IN': 2001:500:12::d0d#53
+network unreachable resolving 'api.openshift.com/A/IN': 2001:500:12::d0d#53
+network unreachable resolving 'api.openshift.com/AAAA/IN': 2001:500:1::53#53
+network unreachable resolving 'api.openshift.com/A/IN': 2001:500:1::53#53
+network unreachable resolving 'api.openshift.com/AAAA/IN': 2001:503:c27::2:30#53
+network unreachable resolving 'api.openshift.com/A/IN': 2001:503:c27::2:30#53
+network unreachable resolving 'api.openshift.com/AAAA/IN': 2001:7fd::1#53
+network unreachable resolving 'api.openshift.com/A/IN': 2001:7fd::1#53
+network unreachable resolving 'api.openshift.com/AAAA/IN': 2001:500:9f::42#53
+network unreachable resolving 'api.openshift.com/A/IN': 2001:500:9f::42#53
+network unreachable resolving 'api.openshift.com/AAAA/IN': 2001:dc3::35#53
+network unreachable resolving 'api.openshift.com/A/IN': 2001:dc3::35#53
+network unreachable resolving 'api.openshift.com/AAAA/IN': 2001:7fe::53#53
+network unreachable resolving 'api.openshift.com/A/IN': 2001:7fe::53#53
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on ::#53
+no longer listening on 127.0.0.1#53
+no longer listening on 172.25.250.253#53
+no longer listening on 192.168.50.254#53
+no longer listening on 10.81.3.208#53
+exiting
+managed-keys-zone: journal file is out of date: removing journal file
+managed-keys-zone: loaded serial 11
+zone 0.in-addr.arpa/IN: loaded serial 0
+zone localhost.localdomain/IN: loaded serial 0
+zone 1.0.0.127.in-addr.arpa/IN: loaded serial 0
+zone 50.168.192.in-addr.arpa/IN: loaded serial 2019022400
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+zone localhost/IN: loaded serial 0
+zone example.com/IN: loaded serial 2019022400
+all zones loaded
+running
+network unreachable resolving './DNSKEY/IN': 172.25.250.254#53
+network unreachable resolving './NS/IN': 2001:500:12::d0d#53
+network unreachable resolving './DNSKEY/IN': 2001:500:12::d0d#53
+network unreachable resolving './NS/IN': 2001:7fd::1#53
+network unreachable resolving './DNSKEY/IN': 2001:7fd::1#53
+network unreachable resolving './NS/IN': 2001:503:c27::2:30#53
+network unreachable resolving './DNSKEY/IN': 2001:503:c27::2:30#53
+network unreachable resolving './NS/IN': 2001:500:a8::e#53
+network unreachable resolving './DNSKEY/IN': 2001:500:a8::e#53
+network unreachable resolving './NS/IN': 2001:500:2f::f#53
+network unreachable resolving './DNSKEY/IN': 2001:500:2f::f#53
+network unreachable resolving './NS/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving './DNSKEY/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving './NS/IN': 2001:500:1::53#53
+network unreachable resolving './DNSKEY/IN': 2001:500:1::53#53
+network unreachable resolving './NS/IN': 2001:500:200::b#53
+network unreachable resolving './DNSKEY/IN': 2001:500:200::b#53
+network unreachable resolving './NS/IN': 2001:dc3::35#53
+network unreachable resolving './DNSKEY/IN': 2001:dc3::35#53
+network unreachable resolving './NS/IN': 2001:500:9f::42#53
+network unreachable resolving './DNSKEY/IN': 2001:500:9f::42#53
+network unreachable resolving './NS/IN': 2001:500:2::c#53
+network unreachable resolving './DNSKEY/IN': 2001:500:2::c#53
+network unreachable resolving './NS/IN': 2001:500:2d::d#53
+network unreachable resolving './DNSKEY/IN': 2001:500:2d::d#53
+network unreachable resolving './NS/IN': 2001:7fe::53#53
+network unreachable resolving './DNSKEY/IN': 2001:7fe::53#53
+network unreachable resolving './NS/IN': 192.112.36.4#53
+network unreachable resolving './DNSKEY/IN': 192.112.36.4#53
+network unreachable resolving './NS/IN': 193.0.14.129#53
+network unreachable resolving './DNSKEY/IN': 193.0.14.129#53
+network unreachable resolving './NS/IN': 192.58.128.30#53
+network unreachable resolving './DNSKEY/IN': 192.58.128.30#53
+network unreachable resolving './NS/IN': 192.203.230.10#53
+network unreachable resolving './DNSKEY/IN': 192.203.230.10#53
+network unreachable resolving './NS/IN': 192.5.5.241#53
+network unreachable resolving './DNSKEY/IN': 192.5.5.241#53
+network unreachable resolving './NS/IN': 198.41.0.4#53
+network unreachable resolving './DNSKEY/IN': 198.41.0.4#53
+network unreachable resolving './NS/IN': 198.97.190.53#53
+network unreachable resolving './DNSKEY/IN': 198.97.190.53#53
+network unreachable resolving './NS/IN': 199.9.14.201#53
+network unreachable resolving './DNSKEY/IN': 199.9.14.201#53
+network unreachable resolving './NS/IN': 202.12.27.33#53
+network unreachable resolving './DNSKEY/IN': 202.12.27.33#53
+network unreachable resolving './NS/IN': 199.7.83.42#53
+network unreachable resolving './DNSKEY/IN': 199.7.83.42#53
+network unreachable resolving './NS/IN': 192.33.4.12#53
+network unreachable resolving './DNSKEY/IN': 192.33.4.12#53
+network unreachable resolving './NS/IN': 199.7.91.13#53
+network unreachable resolving './DNSKEY/IN': 199.7.91.13#53
+network unreachable resolving './NS/IN': 192.36.148.17#53
+resolver priming query complete
+network unreachable resolving './DNSKEY/IN': 192.36.148.17#53
+managed-keys-zone: Unable to fetch DNSKEY set '.': failure
+listening on IPv4 interface eth0, 172.25.250.253#53
+listening on IPv4 interface eth1, 192.168.50.254#53
+listening on IPv4 interface eth2, 10.81.2.110#53
+network unreachable resolving './NS/IN': 2001:500:2d::d#53
+network unreachable resolving './NS/IN': 2001:500:a8::e#53
+network unreachable resolving './NS/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving './NS/IN': 2001:500:1::53#53
+network unreachable resolving './NS/IN': 2001:7fe::53#53
+network unreachable resolving './NS/IN': 2001:500:2::c#53
+validating ./DNSKEY: got insecure response; parent indicates it should be secure
+insecurity proof failed resolving './DNSKEY/IN': 172.25.250.254#53
+resolver priming query complete
+checkhints: b.root-servers.net/A (170.247.170.2) missing from hints
+checkhints: b.root-servers.net/A (199.9.14.201) extra record in hints
+checkhints: b.root-servers.net/AAAA (2801:1b8:10::b) missing from hints
+checkhints: b.root-servers.net/AAAA (2001:500:200::b) extra record in hints
+no valid RRSIG resolving 'com/DS/IN': 172.25.250.254#53
+network unreachable resolving 'com/DS/IN': 2801:1b8:10::b#53
+timed out resolving 'registry.redhat.io/AAAA/IN': 172.25.250.254#53
+timed out resolving 'registry.redhat.io/A/IN': 172.25.250.254#53
+  validating ./SOA: got insecure response; parent indicates it should be secure
+  validating ./SOA: got insecure response; parent indicates it should be secure
+no valid RRSIG resolving 'alertmanager-operated/DS/IN': 172.25.250.254#53
+  validating ./SOA: got insecure response; parent indicates it should be secure
+no valid RRSIG resolving 'alertmanager-main-0.alertmanager-operated/DS/IN': 172.25.250.254#53
+insecurity proof failed resolving 'alertmanager-main-0.alertmanager-operated/AAAA/IN': 172.25.250.254#53
+  validating ./SOA: got insecure response; parent indicates it should be secure
+  validating ./SOA: got insecure response; parent indicates it should be secure
+no valid RRSIG resolving 'svc/DS/IN': 172.25.250.254#53
+  validating ./SOA: got insecure response; parent indicates it should be secure
+no valid RRSIG resolving 'openshift-monitoring.svc/DS/IN': 172.25.250.254#53
+  validating ./SOA: got insecure response; parent indicates it should be secure
+no valid RRSIG resolving 'prometheus-k8s.openshift-monitoring.svc/DS/IN': 172.25.250.254#53
+insecurity proof failed resolving 'prometheus-k8s.openshift-monitoring.svc/A/IN': 172.25.250.254#53
+  validating ./SOA: got insecure response; parent indicates it should be secure
+  validating ./SOA: got insecure response; parent indicates it should be secure
+no valid RRSIG resolving 'alertmanager-main-1.alertmanager-operated/DS/IN': 172.25.250.254#53
+insecurity proof failed resolving 'alertmanager-main-1.alertmanager-operated/A/IN': 172.25.250.254#53
+  validating ./SOA: got insecure response; parent indicates it should be secure
+  validating ./SOA: got insecure response; parent indicates it should be secure
+no valid RRSIG resolving 'openshift-marketplace.svc/DS/IN': 172.25.250.254#53
+  validating ./SOA: got insecure response; parent indicates it should be secure
+no valid RRSIG resolving 'redhat-operators.openshift-marketplace.svc/DS/IN': 172.25.250.254#53
+insecurity proof failed resolving 'redhat-operators.openshift-marketplace.svc/A/IN': 172.25.250.254#53
+  validating ./SOA: got insecure response; parent indicates it should be secure
+  validating ./SOA: got insecure response; parent indicates it should be secure
+  validating ./SOA: got insecure response; parent indicates it should be secure
+no valid RRSIG resolving 'community-operators.openshift-marketplace.svc/DS/IN': 172.25.250.254#53
+insecurity proof failed resolving 'community-operators.openshift-marketplace.svc/A/IN': 172.25.250.254#53
+insecurity proof failed resolving 'community-operators.openshift-marketplace.svc/AAAA/IN': 172.25.250.254#53
+  validating ./SOA: got insecure response; parent indicates it should be secure
+  validating ./SOA: got insecure response; parent indicates it should be secure
+no valid RRSIG resolving 'alertmanager-main-2.alertmanager-operated/DS/IN': 172.25.250.254#53
+insecurity proof failed resolving 'alertmanager-main-2.alertmanager-operated/ANY/IN': 172.25.250.254#53
+  validating ./SOA: got insecure response; parent indicates it should be secure
+  validating ./SOA: got insecure response; parent indicates it should be secure
+  validating ./SOA: got insecure response; parent indicates it should be secure
+no valid RRSIG resolving 'redhat-marketplace.openshift-marketplace.svc/DS/IN': 172.25.250.254#53
+insecurity proof failed resolving 'redhat-marketplace.openshift-marketplace.svc/AAAA/IN': 172.25.250.254#53
+insecurity proof failed resolving 'redhat-marketplace.openshift-marketplace.svc/A/IN': 172.25.250.254#53
+  validating ./SOA: got insecure response; parent indicates it should be secure
+  validating ./SOA: got insecure response; parent indicates it should be secure
+no valid RRSIG resolving 'certified-operators.openshift-marketplace.svc/DS/IN': 172.25.250.254#53
+  validating ./SOA: got insecure response; parent indicates it should be secure
+insecurity proof failed resolving 'certified-operators.openshift-marketplace.svc/A/IN': 172.25.250.254#53
+insecurity proof failed resolving 'certified-operators.openshift-marketplace.svc/AAAA/IN': 172.25.250.254#53
