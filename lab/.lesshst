@@ -1,0 +1,6 @@
+.less-history-file:
+.search
+"journalctl -b -f -u release-image.service -u bootkube.service
+"egistry.redhat.io/ubi8/ubi
+"egistry.redhat.io
+"egistry.redhat
